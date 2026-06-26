@@ -1,0 +1,8 @@
+const mostrarMensagem=function(){
+    console.log("minha primeira função anônima!");}
+    mostrarMensagem();
+    
+    function calcularQuadrado(numero){
+        return numero * numero
+}
+console.log (calcularQuadrado(5));
