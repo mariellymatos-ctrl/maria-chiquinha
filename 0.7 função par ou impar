@@ -1,0 +1,12 @@
+
+function ParOuImpar(){
+    num = Number(prompt("escreva o numero"));
+if (num % 2 == 0){
+    console.log("o numero é par");
+    
+}
+else{
+    console.log("o numero é impar");
+}  
+}
+ParOuImpar();
