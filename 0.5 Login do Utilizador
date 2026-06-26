@@ -1,0 +1,11 @@
+// 3.Login do Utilizador: Cria uma variável utilizador. Se for igual a "admin", imprime "Bem-vindo, administrador!", senão imprime "Bem-vindo, utilizador comum!".
+let utilizador;
+
+utilizador = prompt("admin ? (s/n): ");
+
+if(utilizador == "s"){
+  console.log("bem-vindo, administrador!");
+}else{
+  console.log("bem-vindo, utilizador comum!");
+  
+}
