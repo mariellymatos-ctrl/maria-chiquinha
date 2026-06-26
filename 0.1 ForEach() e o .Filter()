@@ -1,0 +1,12 @@
+const usuarios = [
+    { nome: 'Ana', ativo: true },
+    { nome: 'Rodrigo', ativo: false },
+    { nome: 'Beatriz', ativo: true },
+    { nome: 'Lucas', ativo: false }
+];
+
+const usuariosativos = usuarios.filter(usuario=> usuario.ativo);
+
+usuariosativos.forEach((usuario)=>{
+    console.log("usuario " + usuario.nome +" esta online");
+});
