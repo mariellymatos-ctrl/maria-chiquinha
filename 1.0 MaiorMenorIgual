@@ -1,0 +1,13 @@
+let A, B;
+A = Number(prompt("digite um numero "));
+B = Number(prompt("digite outro numero "));
+if (A > B){
+    console.log("A é maior que B");
+
+}
+else if(B > A){
+    console.log("B é maior que A");
+}
+else{
+    console.log("são iguais")
+}
