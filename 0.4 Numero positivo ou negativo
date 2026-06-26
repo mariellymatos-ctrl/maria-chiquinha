@@ -1,0 +1,10 @@
+// 2.Numero positivo ou negativo. Verifica se um número é positivo, negativo ou zero
+let num;
+
+num = prompt("escreva um numero: ");
+
+if (num >= 0){
+  console.log("positivo");
+}else{
+  console.log("negativo")
+}
