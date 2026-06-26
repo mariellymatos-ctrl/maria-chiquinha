@@ -1,0 +1,12 @@
+function AprovadoOuReprovado(){
+    nota = Number(prompt("escreva a nota "));
+if(nota >= 10){
+    console.log("aprovado");
+    
+}
+else{
+    console.log("reprovado");
+}
+}
+AprovadoOuReprovado();
+AprovadoOuReprovado();
