@@ -1,0 +1,8 @@
+
+
+function MultiploDe5(num){
+for(let i=0; i<= num;i+=5){
+    console.log(i);
+}
+}
+MultiploDe5(Number(prompt("digite um numero")))
